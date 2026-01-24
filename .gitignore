@@ -1,0 +1,9 @@
+# Ignore node_modules 
+target/
+.classpath
+.project
+.settings/
+*.log
+/.metadata/
+*.env
+config.json

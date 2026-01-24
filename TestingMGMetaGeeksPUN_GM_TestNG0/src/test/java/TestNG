@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  <groups>
+  	<run>
+  		<include name="retest"/>
+  		<include name="smoketest"/>
+  		<exclude name="regression"/>
+  		<exclude name="unittest"/>
+  		
+  	</run>
+  </groups>
+    <classes>
+      <class name="Testscript.TC02"/>
+      <class name="Testscript.TC01"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
