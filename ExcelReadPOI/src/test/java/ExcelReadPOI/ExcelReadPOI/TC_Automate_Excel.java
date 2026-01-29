@@ -17,6 +17,6 @@ public class TC_Automate_Excel {
 	  String test= obj.ReadCellData(1,2);
 	  driver.findElement(By.name("q")).sendKeys(test);
 	
-	  
+	 
   }
 }
