@@ -64,5 +64,10 @@
     <version>5.2.5</version>
     <scope>compile</scope>
 </dependency>
+  	<dependency>
+  		<groupId>ExcelReadPOI</groupId>
+  		<artifactId>ExcelReadPOI</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 </project>

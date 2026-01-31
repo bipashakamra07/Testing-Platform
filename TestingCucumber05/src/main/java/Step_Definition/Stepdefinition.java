@@ -1,3 +1,13 @@
+
+/*******************************************
+Project Name:awesomeqa.ui
+Module Name:Registration Module
+Script Name : StepDefinition
+Author:Bipasha
+Date of Creation:12.1.2026
+Script Description: To register in  awesomeqa in all conditions
+
+********************************************/
 package Step_Definition;
 
 import org.openqa.selenium.By;
@@ -17,12 +27,38 @@ public class Stepdefinition {
 	}
 	
 	 @Given("The user is in cucumber.io homepage")
+	 /*******************************************
+	 Project Name:
+	 Module Name:
+	 Requirement ID:
+	 Testcase ID :
+	 Method Name : Fun_Ocart_login()
+	 Method Description :
+	 Author: Gayatri
+	 Date of Creation: 20.10.2020
+	 Script Description: To login in opencart application 
+	 using valid credentials
+
+	 ********************************************/
 	 public void The_user_is_in_cucumberio_homepage(){
 		 String BaseURL="https://cucumber.io/";
 		 driver.get(BaseURL);
 		 driver.manage().window().maximize();
 	 }
 	 @When("The user clicks on Documentation link")
+	 /*******************************************
+	 Project Name:
+	 Module Name:
+	 Requirement ID:
+	 Testcase ID :
+	 Method Name : Fun_Ocart_login()
+	 Method Description :
+	 Author: Gayatri
+	 Date of Creation: 20.10.2020
+	 Script Description: To login in opencart application 
+	 using valid credentials
+
+	 ********************************************/
 	 public void The_user_clicks_on_Documentation_link() {
 		 WebElement docLink=driver.findElement(By.xpath("//*[@id='__docusaurus']/nav/div[1]/div[1]/a[2]"));
 		 docLink.click();

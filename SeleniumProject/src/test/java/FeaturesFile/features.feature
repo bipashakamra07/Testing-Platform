@@ -19,18 +19,17 @@
 @tag
 Feature: Title of your feature
   I want to use this template for my feature file
-
-Background:
-	Given: The user must be in chrome Broswer
 	
-   @tag1
+   Background:
+    Given User is on signup page
+
+  @tag1
   Scenario: Login Validation
-    #Given the user is in signup page
-    Given User has entered the resgriration feilds
+    Given User has entered registration fields
     And user checks captcha
-    And user clicks on continue
-    And user enter the password
-    And user clicks on Signup
+    And user clicks continue
+    And user enters password
+    And user clicks Signup
     Then user sees My Account
     
   @tag2

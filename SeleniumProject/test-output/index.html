@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\bipasha.kamra\AppData\Local\Temp\testng-eclipse-1526471165\testng-customsuite.xml</span>
+                    <span>C:\Users\bipasha.kamra\AppData\Local\Temp\testng-eclipse--268788647\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -131,15 +131,15 @@
                   </a> <!-- runScenario("Login Validation", "Optional[Title of your feature]") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Login Validation", "Optional[Title of your feature]")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;privacypolicy&quot;]&quot;}
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#privacypolicy&quot;}
   (Session info: chrome=144.0.7559.97)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.36.0&apos;, revision: &apos;6d115cfd87&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0903a58fecb7b52045adc2bc681a0f8f, findElement {value=//*[@id=&quot;privacypolicy&quot;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\Users\BIPASH~1.KAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58968}, goog:processID: 20880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58968/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0903a58fecb7b52045adc2bc681a0f8f
+Command: [0cc40481e3cef4a744593464573796fc, findElement {using=id, value=privacypolicy}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\Users\BIPASH~1.KAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58814}, goog:processID: 14232, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58814/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cc40481e3cef4a744593464573796fc
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -154,8 +154,9 @@ Session ID: 0903a58fecb7b52045adc2bc681a0f8f
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-	at StepsFile.StepsDefine.seeMyAccount(StepsDefine.java:107)
-	at ✽.user sees My Account(file:///C:/Users/bipasha.kamra/eclipse-workspace/SeleniumTrainningProject/src/test/java/FeaturesFile/features.feature:34)
+	at ExcelRead.BaseMethod.checkMyAccount(BaseMethod.java:109)
+	at StepsFile.StepsDefine.verifyAccount(StepsDefine.java:58)
+	at ✽.user sees My Account(file:///C:/Users/bipasha.kamra/eclipse-workspace/SeleniumProject/src/test/java/FeaturesFile/features.feature:33)
 
 </div> <!-- stack-trace -->
                   <em>
@@ -167,7 +168,7 @@ Session ID: 0903a58fecb7b52045adc2bc681a0f8f
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\bipasha.kamra\AppData\Local\Temp\testng-eclipse-1526471165\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\bipasha.kamra\AppData\Local\Temp\testng-eclipse--268788647\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -228,12 +229,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'RunnerFile.RunTest')
-data.setCell(0, 3, 178430);
+data.setCell(0, 3, 69072);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -268,11 +269,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("Login Validation", "Optional[Title of your feature]")</span>
-                <span class="method-start">201 ms</span>
+                <span class="method-start">330 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">178634 ms</span>
+                <span class="method-start">69411 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
